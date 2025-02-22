@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, white,rgb(141, 141, 226));
+}
+    
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(10, 9, 22);
+}
+.left {
+    flex-basis: 40%;
+
+}
+
+.subheading {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(39, 144, 204);
+    
+}
+.right {
+    flex-basis: 50%;
+    height: 400px;
+    display: grid;
+    gap: 4px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.box {
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    border-radius: 2%;
+    
+    
+}
+#box1{
+    grid-row: span 2 ;
+    transition: all 1s ease-in-out;
+}
+#box2{
+    grid-column: span 2 ;
+
+}
+#box2:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px #d10000;
+    
+}
+#box4:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px #d10000;
+    
+}
+#box5:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px #d10000;
+    
+}#box6:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px #d10000;
+    
+}
+#box1:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px #d10000;
+    
+}
+#box7:hover {
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 1 1 20px #000000;
+    border-radius: 1%;
+}
+
+#box4{
+    grid-row: span 2 ;
+}#box5{
+    grid-column: span 2 ;
+}#box6{
+    grid-row: span 2 ;
+}#box7{
+    grid-column: span 2 ;
+}
+
+
